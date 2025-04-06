@@ -8,8 +8,9 @@ public class Main {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        System.out.println("x + y =" + plus(x, y));
-        System.out.println("x - y =" + minus(x, y));
+        System.out.println("x + y = " + plus(x, y));
+        System.out.println("x - y = " + minus(x, y));
+        System.out.println("x ^ y = " + exponentiation(x, y));
 
         System.out.println("Конец выполнения кода!");
     }
