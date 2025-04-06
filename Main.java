@@ -11,6 +11,7 @@ public class Main {
         System.out.println("x + y =" + plus(x, y));
         System.out.println("x - y =" + minus(x, y));
 
+        System.out.println("Конец выполнения кода!");
     }
     public static int plus(int x, int y) {
         return x + y;
