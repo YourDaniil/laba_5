@@ -19,4 +19,7 @@ public class Main {
     public static int minus(int x, int y) {
         return x - y;
     }
+    public static int exponentiation(int x, int y) {
+        return (int) Math.pow(x,y);
+    }
 }
